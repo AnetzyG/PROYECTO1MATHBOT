@@ -296,18 +296,18 @@ Con este proyecto buscamos explorar el potencial de los LLMs como herramientas d
 ---
 
 # Papers y referencias principales
-
-## Transformers y LLMs
-
-
----
-
-## NLP General
-
-
----
-
-
+- Sebastian Schorcht1 et Al.
+  No one size fits all: a study of prompt techniques and large language modelstoenhance AI’smathematics educational quality.
+  2026
+- Wensheng Gan, et Al.
+  Large Language Models in Education: Vision and Opportunities.
+  2023
+- Janice Ahn, et Al.
+  Large Language Models for Mathematical Reasoning: Progresses and Challenges.
+  2024
+- Hanyi Xu, et Al.
+  Large Language Models for Education: A Survey.
+  2024
 ---
 
 # Reproducibilidad
