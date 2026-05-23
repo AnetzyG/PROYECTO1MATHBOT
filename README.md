@@ -44,18 +44,18 @@ f : X \rightarrow Y
 
 donde:
 
-- \(X\) representa problemas matemáticos y respuestas del estudiante.
-- \(Y\) representa:
+- $$ \(X\) $$ representa problemas matemáticos y respuestas del estudiante.
+- $$ \(Y\) $$ representa:
   - explicaciones,
   - ejercicios generados,
   - detección de errores.
 
 El sistema busca aproximar:
-
+$$
 \[
 \hat{y} = \arg\max P(y \mid x;\theta)
 \]
-
+$$
 utilizando modelos de lenguaje preentrenados.
 
 ---
@@ -87,15 +87,15 @@ Tema → Prompt → LLM → Generación de ejercicios → Explicación → Detec
 ```
 
 La salida del modelo se representa mediante:
-
+$$
 \[
 y = \text{LLM}(x)
 \]
-
+$$
 donde:
 
-- \(x\) corresponde al prompt ingresado por el docente,
-- \(y\) corresponde a ejercicios, ejemplos o retroalimentación generada.
+- $$ \(x\) $$ corresponde al prompt ingresado por el docente,
+- $$ \(y\) $$ corresponde a ejercicios, ejemplos o retroalimentación generada.
 
 Los modelos decoder-only fueron seleccionados con base en:
 
@@ -115,16 +115,16 @@ El corpus será construido manualmente utilizando:
 - errores comunes cometidos por estudiantes.
 
 Cada ejercicio se representa como:
-
+$$
 \[
 x_i = (p_i, s_i, e_i)
 \]
-
+$$
 donde:
 
-- \(p_i\): problema matemático,
-- \(s_i\): solución correcta,
-- \(e_i\): error común.
+- $$ \(p_i\) $$: problema matemático,
+- $$ \(s_i\) $$: solución correcta,
+- $$ \(e_i\) $$: error común.
 
 El dominio del proyecto corresponde a:
 
@@ -179,23 +179,23 @@ El sistema será capaz de generar ejercicios relacionados con:
 - representación en recta numérica.
 
 Sea:
-
+$$
 \[
 T = \{t_1, t_2, ..., t_n\}
 \]
-
+$$
 el conjunto de temas matemáticos disponibles.
 
 El sistema generará ejercicios condicionados al tema seleccionado:
-
+$$
 \[
 P(e \mid t)
 \]
-
+$$
 donde:
 
-- \(t\) representa el tema,
-- \(e\) representa el ejercicio generado.
+- $$ \(t\) $$ representa el tema,
+- $$ \(e\) $$ representa el ejercicio generado.
 
 ---
 
@@ -204,11 +204,11 @@ donde:
 Además de generar ejercicios, el sistema analizará respuestas ingresadas por el usuario para detectar errores sencillos.
 
 Sea:
-
+$$
 \[
 R = \{r_1, r_2, ..., r_n\}
 \]
-
+$$
 el conjunto de respuestas estudiantiles.
 
 El sistema buscará identificar:
