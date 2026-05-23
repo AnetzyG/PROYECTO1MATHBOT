@@ -38,9 +38,9 @@ Construir un pipeline reproducible de procesamiento de lenguaje natural capaz de
 
 La tarea principal se modela como:
 
-\[
+$$\[
 f : X \rightarrow Y
-\]
+\]$$
 
 donde:
 
